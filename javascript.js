@@ -58,13 +58,13 @@ $(function(){
     window.location.href = "shengwu/rao3.2细胞器系统内的分工合作.ppt";
   });
   $('.item6 p:eq(-5)').on('click',function(){
-    window.location.href = "shengwu/第2单元 第1讲　细胞膜与细胞核.ppt";
+    window.location.href = "shengwu/第2单元第1讲细胞膜与细胞核.ppt";
   });
   $('.item6 p:eq(-4)').on('click',function(){
-    window.location.href = "shengwu/rao第1单元 第3讲　蛋白质和核酸.ppt";
+    window.location.href = "shengwu/rao第1单元第3讲蛋白质和核酸.ppt";
   });
   $('.item6 p:eq(-3)').on('click',function(){
-    window.location.href = "shengwu/第1单元 第2讲　细胞中无机物、糖类和脂质.ppt";
+    window.location.href = "shengwu/第1单元第2讲细胞中无机物、糖类和脂质.ppt";
   });
   $('.item6 p:eq(-2)').on('click',function(){
     window.location.href = "shengwu/8月6日上课.pptx";
