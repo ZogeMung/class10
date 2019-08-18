@@ -10,7 +10,7 @@ body{
 
 .container{
   position: absolute;
-  width: 1300px;
+  width: 1212px;
   display: inline-block;
   left: 50%;
   -webkit-transform: translatex(-50%);
@@ -20,13 +20,13 @@ body{
 
 @media screen and (max-width:1400px){
   .container{
-    width: 900px;
+    width: 808px;
   }
 }
 
 @media screen and (max-width:1000px){
   .container{
-    width: 500px;
+    width: 404px;
   }
 }
 
