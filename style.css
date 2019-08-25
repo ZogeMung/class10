@@ -30,6 +30,20 @@ body{
   }
 }
 
+.sxview{
+  position: absolute;
+  font-size: 16px;
+  line-height: 26px;
+  right: 10%;
+  color: #3498db;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sxview:hover{
+  text-decoration: underline;
+}
+
 .box{
   display: inline-block;
   text-align: center;
