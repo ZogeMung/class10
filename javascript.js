@@ -72,6 +72,9 @@ $(function(){
 
 
 
+  $('.item6 p:eq(-11)').on('click',function(){
+    window.location.href = "shengwu/rao8月26细胞中有机物的合成.pptx";
+  });
   $('.item6 p:eq(-10)').on('click',function(){
     window.location.href = "shengwu/rao第3单元第2讲ATP与细胞呼吸.ppt";
   });
