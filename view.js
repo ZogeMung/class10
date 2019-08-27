@@ -20,6 +20,9 @@ $(function(){
   });
 
 
+  $('.item6 p:eq(-11)').on('click',function(){
+    window.location.href = "sw/rao8月26细胞中有机物的合成";
+  });
   $('.item6 p:eq(-10)').on('click',function(){
     window.location.href = "sw/rao第3单元第2讲ATP与细胞呼吸";
   });
