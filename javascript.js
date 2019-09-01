@@ -1,7 +1,7 @@
 $(function(){
 
   $('.item1 p:eq(-10)').on('click',function(){
-    window.location.href = "yuwen/作文题目.pptx";
+    window.location.href = "yuwen/作文讲评.pptx";
   });
   $('.item1 p:eq(-9)').on('click',function(){
     window.location.href = "yuwen/《廉颇蔺相如列传》.ppt";
