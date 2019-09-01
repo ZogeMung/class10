@@ -31,6 +31,18 @@ $(function(){
     window.location.href = "yuwen/《烛之武退秦师》.ppt";
   });
 
+  $('.item2 p:eq(-10)').on('click',function(){
+    window.location.href = "shuxue/20190829.zip";
+  });
+  $('.item2 p:eq(-9)').on('click',function(){
+    window.location.href = "shuxue/20190828.zip";
+  });
+  $('.item2 p:eq(-8)').on('click',function(){
+    window.location.href = "shuxue/20190827.zip";
+  });
+  $('.item2 p:eq(-7)').on('click',function(){
+    window.location.href = "shuxue/20190826.zip";
+  });
   $('.item2 p:eq(-6)').on('click',function(){
     window.location.href = "shuxue/20190824.zip";
   });
