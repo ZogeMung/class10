@@ -50,6 +50,15 @@ $(function(){
     window.location.href = "shuxue/20190806.zip";
   });
 
+  $('.item3 p:eq(-9)').on('click',function(){
+    window.location.href = "U23 单词及短语.pptx";
+  });
+  $('.item3 p:eq(-8)').on('click',function(){
+    window.location.href = "yingyu/U23 总Phrases.pptx";
+  });
+  $('.item3 p:eq(-7)').on('click',function(){
+    window.location.href = "yingyu/U23 CW 投诉信(Clara).pptx";
+  });
   $('.item3 p:eq(-6)').on('click',function(){
     window.location.href = "yingyu/U23.pptx";
   });
