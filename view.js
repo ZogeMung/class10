@@ -1,15 +1,15 @@
 $(function(){
 
-  $('.item2 p:eq(-6)').on('click',function(){
+  $('.item2 p:eq(-10)').on('click',function(){
     window.location.href = "sx/20190829/";
   });
-  $('.item2 p:eq(-5)').on('click',function(){
+  $('.item2 p:eq(-9)').on('click',function(){
     window.location.href = "sx/20190828/";
   });
-  $('.item2 p:eq(-4)').on('click',function(){
+  $('.item2 p:eq(-8)').on('click',function(){
     window.location.href = "sx/20190827/";
   });
-  $('.item2 p:eq(-3)').on('click',function(){
+  $('.item2 p:eq(-7)').on('click',function(){
     window.location.href = "sx/20190826/";
   });
   $('.item2 p:eq(-6)').on('click',function(){
