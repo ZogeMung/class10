@@ -3,9 +3,9 @@ function times(){
   if (times == "") {
     times = 0;
   }
-  times = times + 1;
+  times = number(times) + 1;
   document.cookie = times;
-  $('#showtimes').html("你已累计打开此网页" + times + "了");
+  $('#showtimes').html("你已累计打开此网页" + times + "次了");
 }
 
 $(function(){
