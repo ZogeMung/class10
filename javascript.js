@@ -1,3 +1,13 @@
+function times(){
+  var times = document.cookie;
+  if (times == "") {
+    times = 0;
+  }
+  times = times + 1;
+  document.cookie = times;
+  $('#showtimes').html = "你已累计打开此网页" + times + "了";
+}
+
 $(function(){
 
   $('.item1 p:eq(-10)').on('click',function(){
