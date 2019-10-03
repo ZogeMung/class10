@@ -10,6 +10,15 @@ function times(){
 
 $(function(){
 
+  $('.item2 p:eq(-13)').on('click',function(){
+    window.location.href = "sx/20190910/";
+  });
+  $('.item2 p:eq(-12)').on('click',function(){
+    window.location.href = "sx/20190907/";
+  });
+  $('.item2 p:eq(-11)').on('click',function(){
+    window.location.href = "sx/20190902/";
+  });
   $('.item2 p:eq(-10)').on('click',function(){
     window.location.href = "sx/20190829/";
   });
