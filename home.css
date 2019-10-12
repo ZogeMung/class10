@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background: url(assets/home/img/班徽.png) no-repeat center center; */
+  /* background-size: 500px; */
+  /* background-attachment: fixed; */
+  background: #FCE4EC;
+}
+
+.content{
+  position: absolute;
+  width: 578px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+@media screen and (max-width:630px){
+  .content{
+    width: 384px;
+  }
+}
+
+.button{
+  /* display: inline-flex; */
+  margin: 30px;
+  width: 130px;
+  height: 130px;
+}
+
+i{
+  display: block!important;
+  font-size: 50px!important;
+}
