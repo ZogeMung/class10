@@ -13,12 +13,33 @@
 <body>
   <h1 class="mdui-typo-display-3 mdui-text-center mdui-text-color-pink-700">Champion</h1>
 <div class="content">
-  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent"><i class="mdui-icon material-icons">photo</i>Group Photo</button>
-  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent"><i class="mdui-icon material-icons">music_note</i>Class Song</button>
-  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent"><i class="mdui-icon material-icons">arrow_forward</i>Class Goal</button>
-  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent"><i class="mdui-icon material-icons">note</i>Button</button>
-  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent"><i class="mdui-icon material-icons">file_download</i>Data Center</button>
-  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent"><i class="mdui-icon material-icons">note</i>Button</button>
+  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#GroupPhoto'}"><i class="mdui-icon material-icons">photo</i>Group Photo</button>
+  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#ClassSong'}"><i class="mdui-icon material-icons">music_note</i>Class Song</button>
+  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#ClassGoal'}"><i class="mdui-icon material-icons">arrow_forward</i>Class Goal</button>
+  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#'}"><i class="mdui-icon material-icons">note</i>Button</button>
+  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" onclick="window.location.href='index.html'"><i class="mdui-icon material-icons">file_download</i>Data Center</button>
+  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#'}"><i class="mdui-icon material-icons">note</i>Button</button>
+</div>
+<div class="mdui-dialog" id="GroupPhoto">
+  <div class="mdui-dialog-title">Group Photo</div>
+  <div class="mdui-dialog-content">
+    <img src="assets/home/img/集体照.jpg" alt="" class="pic mdui-m-b-2">
+    <img src="assets/home/img/班徽.png" alt="" class="pic mdui-m-t-2">
+    <p class="mdui-m-a-2">班徽由奖杯、英文GOT ‘EM(GOT THEM)与THE BEST TEN组合而成，金色的奖杯上铭刻着冠军之意，胜利的光辉下书写着“GOT ‘EM”(GOT THEM)。战胜对手，得到奖牌，最终以胜利之姿展现在所有班级面前，让他们知道，这就是我们——“THE BEST TEN”。</p>
+  </div>
+  <div class="mdui-dialog-actions">
+    <button class="mdui-btn mdui-ripple" mdui-dialog-close>Cancel</button>
+  </div>
+</div>
+<div class="mdui-dialog" id="ClassSong">
+  <div class="mdui-dialog-title">Class Song</div>
+  <div class="mdui-dialog-content">
+    <audio src="assets/home/music/班歌.mp3" loop></audio>
+    <p class="mdui-m-a-2"></p>
+  </div>
+  <div class="mdui-dialog-actions">
+    <button class="mdui-btn mdui-ripple" mdui-dialog-close>Cancel</button>
+  </div>
 </div>
 </body>
 </html>
