@@ -20,24 +20,28 @@ body {
   transform: translate(-50%,-50%);
 }
 
-@media screen and (max-width:630px){
+@media screen and (max-width:630px) {
   .content{
     width: 384px;
   }
 }
 
-.button{
+h1 {
+  cursor: default;
+}
+
+.button {
   /* display: inline-flex; */
   margin: 30px;
   width: 130px;
   height: 130px;
 }
 
-i{
+i {
   display: block!important;
   font-size: 50px!important;
 }
 
-.pic{
+.pic {
   width: 100%;
 }
