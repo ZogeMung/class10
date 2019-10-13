@@ -7,7 +7,6 @@
   <link href="https://cdn.bootcss.com/mdui/0.4.3/css/mdui.min.css" rel="stylesheet">
   <link rel="stylesheet" href="home.css">
   <script src="https://cdn.bootcss.com/mdui/0.4.3/js/mdui.min.js"></script>
-  <script src="home.js"></script>
   <title>Champion</title>
 </head>
 <body>
@@ -16,9 +15,9 @@
   <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#GroupPhoto'}"><i class="mdui-icon material-icons">photo</i>Group Photo</button>
   <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#ClassSong'}"><i class="mdui-icon material-icons">music_note</i>Class Song</button>
   <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#ClassGoal'}"><i class="mdui-icon material-icons">arrow_forward</i>Class Goal</button>
-  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#'}"><i class="mdui-icon material-icons">note</i>Button</button>
+  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" disabled><i class="mdui-icon material-icons">note</i>Button</button>
   <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" onclick="window.location.href='index.html'"><i class="mdui-icon material-icons">file_download</i>Data Center</button>
-  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#'}"><i class="mdui-icon material-icons">note</i>Button</button>
+  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" disabled><i class="mdui-icon material-icons">note</i>Button</button>
 </div>
 <div class="mdui-dialog" id="GroupPhoto">
   <div class="mdui-dialog-title">Group Photo</div>
@@ -34,12 +33,92 @@
 <div class="mdui-dialog" id="ClassSong">
   <div class="mdui-dialog-title">Class Song</div>
   <div class="mdui-dialog-content">
-    <audio src="assets/home/music/班歌.mp3" loop></audio>
-    <p class="mdui-m-a-2"></p>
+    <audio src="assets/home/music/班歌.mp3" id="ClassSongmp3" loop></audio>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-display-1">南征北战 - 我的天空</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">再见我的爱I wanna say goodbye</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">再见我的过去I want a new life</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">再见我的眼泪跌倒和失败</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">再见那个年少轻狂的时代</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">再见我的烦恼不再孤单</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">再见我的懦弱不再哭喊</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">Now I wanna say</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">Hello Hello 我的未来（Hello Hello）</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">在无尽的黑夜</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">所有都快要毁灭</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">至少我还有梦</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">也为你而感动</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">原来黎明的起点</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">就在我的心里面</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">只要我还有梦</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">就会看到彩虹</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">在我的天空</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">挫折和离别不过是生命中的点缀</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">过了多年我才读懂了家人的眼泪</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">发现原来自己没有说再见的勇气</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">离别的伤感感染了满城的空气</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">失去后才知道那些有多么的珍贵</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">亲爱的朋友们是否已经展翅纷飞</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">不飞到高处怎么开阔自己的视野</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">你已经长大了快告诉全世界</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">外面的世界散发着强大的磁场</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">诱惑着每一双即将展开的翅膀</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">热恋的火在懵懂中凶猛的燃烧</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">美丽的火花在恋人的周围环绕</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">这过程很美尽管有无奈和失落</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">刻骨铭心地爱过 尽管她爱的并不是我</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">如果没有离别如何学会承受打击</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">如果没有跌倒如何能够学会爬起</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">在无尽的黑夜</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">所有都快要毁灭</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">至少我还有梦</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">也为你而感动</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">原来黎明的起点</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">就在我的心里面</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">只要我还有梦</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">就会看到彩虹</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">在我的天空</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">Hello Hello 是谁在为我等待</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">Hello Hello 在那神秘的未来</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">Hello Hello 找到属于我的爱</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">Hello Hello this is my new life</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">是谁在为我等待</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">在那神秘的未来</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">找到属于我的爱</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">在无尽的黑夜</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">所有都快要毁灭</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">至少我还有梦</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">也为你而感动</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">原来黎明的起点</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">就在我的心里面</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">只要我还有梦</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">就会看到彩虹</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">在无尽的黑夜</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">所有都快要毁灭</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">至少我还有梦</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">也为你而感动</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">原来黎明的起点</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">就在我的心里面</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">只要我还有梦</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">就会看到彩虹</p>
+    <p class="mdui-text-center mdui-m-y-2 mdui-typo-subline-opacity">在我的天空</p>
   </div>
   <div class="mdui-dialog-actions">
     <button class="mdui-btn mdui-ripple" mdui-dialog-close>Cancel</button>
   </div>
 </div>
+<div class="mdui-dialog" id="ClassGoal">
+  <div class="mdui-dialog-title">ClassGoal</div>
+  <div class="mdui-dialog-content">
+    <p class="mdui-m-a-3 mdui-typo-title">高三10班：</p>
+    <p class="mdui-m-a-3 mdui-typo-title">班级名称：冠军班 (Champion)</p>
+    <p class="mdui-m-a-3 mdui-typo-title">班级口号：激情澎湃 高考不败 斗志昂扬 十班最强</p>
+    <p class="mdui-m-a-3 mdui-typo-title">班级目标：努力成就更优秀的自己</p>
+  </div>
+  <div class="mdui-dialog-actions">
+    <button class="mdui-btn mdui-ripple" mdui-dialog-close>Cancel</button>
+  </div>
+</div>
+
+<script src="home.js"></script>
 </body>
 </html>
