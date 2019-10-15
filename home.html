@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
+<head onload="mdui.snackbar({message: '高三10班 (Champion)', timeout: 1000})>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
@@ -9,7 +9,7 @@
   <script src="https://cdn.bootcss.com/mdui/0.4.3/js/mdui.min.js"></script>
   <title>高三10班 (Champion)</title>
 </head>
-<body onload="mdui.snackbar({message: '高三10班 (Champion)', timeout: 1000})">
+<body">
   <h1 class="mdui-typo-display-3 mdui-text-center mdui-text-color-pink-700">Champion</h1>
 <div class="content">
   <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#GroupPhoto'}" mdui-tooltip="{content: '班级合照', position: 'auto'}"><i class="mdui-icon material-icons">photo</i>Group Photo</button>
