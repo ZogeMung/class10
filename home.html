@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head onload="mdui.snackbar({message: '高三10班 (Champion)', timeout: 1000})">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
@@ -15,7 +15,7 @@
   <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#GroupPhoto'}" mdui-tooltip="{content: '班级合照', position: 'auto'}"><i class="mdui-icon material-icons">photo</i>Group Photo</button>
   <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#ClassSong'}" mdui-tooltip="{content: '班歌', position: 'auto'}"><i class="mdui-icon material-icons">music_note</i>Class Song</button>
   <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#ClassGoal'}" mdui-tooltip="{content: '班级目标', position: 'auto'}"><i class="mdui-icon material-icons">arrow_forward</i>Class Goal</button>
-  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#ClassRule'}" mdui-tooltip="{content: '班级条约', position: 'auto'}"><i class="mdui-icon material-icons">check</i>Class Rule</button>
+  <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#ClassRule'}" mdui-tooltip="{content: '班级制度', position: 'auto'}"><i class="mdui-icon material-icons">check</i>Class Rule</button>
   <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" onclick="window.location.href='index.html'" mdui-tooltip="{content: '课件中心', position: 'auto'}"><i class="mdui-icon material-icons">file_download</i>Data Center</button>
   <button class="button mdui-btn mdui-btn-raised mdui-ripple mdui-color-pink-accent" mdui-dialog="{target: '#ClassPhoto'}" mdui-tooltip="{content: '班级图片', position: 'auto'}"><i class="mdui-icon material-icons">photo</i>Class Photo</button>
 </div>
@@ -121,25 +121,42 @@
 <div class="mdui-dialog" id="ClassRule">
   <div class="mdui-dialog-title">Class Rule</div>
   <div class="mdui-dialog-content">
-    <p class="mdui-m-a-3 mdui-typo-title">总　则</p>
+    <p class="mdui-m-a-3 mdui-text-center mdui-typo-title">总　则</p>
     <p class="mdui-m-a-3 mdui-typo-subheading">一、为营造团结、积极、有序的班容班风，使班级管理科学化、民主化、制度化，现根据《佛山四中中学生日常手册》有关规定，特制定本条例。</p>
     <p class="mdui-m-a-3 mdui-typo-subheading">二、本条例对本班有效，所有班级成员必须无条件遵守。</p>
-    <p class="mdui-m-a-3 mdui-typo-title">第一章 班级基本目标</p>
+    <p class="mdui-m-a-3 mdui-text-center mdui-typo-title">第一章 班级基本目标</p>
     <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
     <p class="mdui-m-a-3 mdui-typo-body-2">一个中心： 以学习为中心；</p>
     <p class="mdui-m-a-3 mdui-typo-body-2">两个基本点： 纪律和卫生；</p>
     <p class="mdui-m-a-3 mdui-typo-body-2">三个学会： 学会做人、学会学习、学会处事。</p>
-    <p class="mdui-m-a-3 mdui-typo-body-2">一个中心、两个基本点、三个学会：</p>
-    <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
-    <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
-    <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
-    <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
-    <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
-    <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
-    <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
-    <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
-    <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
-    <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
+    <p class="mdui-m-a-3 mdui-typo-body-1">①学会做人：</p>
+    <p class="mdui-m-a-3 mdui-typo-body-1">努力提高自身的道德修养，培养自己的公德心，做一个健全、完整的“人”。</p>
+    <p class="mdui-m-a-3 mdui-typo-body-1">②学会学习：</p>
+    <p class="mdui-m-a-3 mdui-typo-body-1">培养良好的学习习惯，完善、改进自己的学习方法；根据自身条件，制定明确的学习目标和完整的学习计划，并持之以恒，在学习上创先争优，不断进取。</p>
+    <p class="mdui-m-a-3 mdui-typo-body-1">③学会处理与老师的关系：尊重老师，服从领导，听从分配，保质保量完成老师交给的任务。</p>
+    <p class="mdui-m-a-3 mdui-typo-body-1">④学会处理与同学的关系：大事讲原则，小事讲风格，同学之间互助互励互勉，共同学习，不断进步，形成健康、有序的同学关系。</p>
+    <p class="mdui-m-a-3 mdui-typo-body-1">⑤学会处理与父母的关系：孝敬父母，珍视亲情，经常与父母沟通，做一个让父母省心、放心的人。</p>
+    <p class="mdui-m-a-3 mdui-text-center mdui-typo-title">第二章　班级精神</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading"><b>自主 自立 自信 自强</b></p>
+    <p class="mdui-m-a-3 mdui-typo-subheading"><b>自主：</b>力所能及，自主学习，自主管理。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading"><b>自立：</b>尊重他人，尊重自己，为自己负责。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading"><b>自信：</b>不畏险阻，斗志高昂，努力进取。</p>
+    <p class="mdui-m-a-3 mdui-text-center mdui-typo-title">第三章　班规</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">1. 尊敬师长、团结同学、礼貌待人，不顶撞老师、不与同学发生冲突、不用不雅语言。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">2. 不沾烟酒，不打架斗殴，不早恋。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">3. 自觉维护学习秩序，不迟到，不旷课，不早退。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">4. 课间不得追逐、起哄、打闹、大声喧哗。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">5. 自觉遵守教室纪律，服从班级管理。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">6. 所有作业、考试，必须按时独立完成，并及时订正，不准抄袭，不准舞弊。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">7. 自觉遵守劳动纪律，按时保质保量完成卫生任务。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">8. 自觉保持好教室卫生，爱护公物。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">9. 有事及时向班主任请假报告，不得隐瞒欺骗。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">10. 学生在校期间严禁佩带手机、各种金银等材质的饰品。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">11. 学生在校期间严禁携带收音机、MP3、小说、漫画书等与学习无关的物品。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">12. 遵守早读纪律，大声朗读，不做与早读无关的事情。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">13. 遵守眼保健操纪律，期间保持安静，不做与眼保健操无关的事情。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">14. 课间操铃声一响，马上冲出教室，迅速到达指定位置，期间做到“快静齐”。</p>
+    <p class="mdui-m-a-3 mdui-typo-subheading">15. 晚修期间保持绝对安静，不得随意说话、串位，不得随意外出打水、上厕所。</p>
     <p class="mdui-m-a-3 mdui-typo-subheading">一个中心、两个基本点、三个学会：</p>
   </div>
   <div class="mdui-dialog-actions">
