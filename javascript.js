@@ -10,6 +10,15 @@ function times(){
 
 $(function(){
 
+  $('.item1 p:eq(-13)').on('click',function(){
+    window.location.href = "yuwen/10月作文题.pptx";
+  });
+  $('.item1 p:eq(-12)').on('click',function(){
+    window.location.href = "yuwen/古代诗歌常见表达技巧的鉴赏1.ppt";
+  });
+  $('.item1 p:eq(-11)').on('click',function(){
+    window.location.href = "yuwen/九月考试试题.pptx";
+  });
   $('.item1 p:eq(-10)').on('click',function(){
     window.location.href = "yuwen/作文讲评.pptx";
   });
@@ -81,8 +90,23 @@ $(function(){
     window.location.href = "shuxue/20190806.zip";
   });
 
+  $('.item3 p:eq(-14)').on('click',function(){
+    window.location.href = "yingyu/2019-10-16 区视导课（Final）.pptx";
+  });
+  $('.item3 p:eq(-13)').on('click',function(){
+    window.location.href = "yingyu/邀请信.pptx";
+  });
+  $('.item3 p:eq(-12)').on('click',function(){
+    window.location.href = "yingyu/英语代词(Clara).ppt";
+  });
+  $('.item3 p:eq(-11)').on('click',function(){
+    window.location.href = "yingyu/五大基本句型(Clara).ppt";
+  });
+  $('.item3 p:eq(-10)').on('click',function(){
+    window.location.href = "yingyu/U3.ppt";
+  });
   $('.item3 p:eq(-9)').on('click',function(){
-    window.location.href = "U23 单词及短语.pptx";
+    window.location.href = "yingyu/U23 单词及短语.pptx";
   });
   $('.item3 p:eq(-8)').on('click',function(){
     window.location.href = "yingyu/U23 总Phrases.pptx";
@@ -112,6 +136,12 @@ $(function(){
 
 
 
+  $('.item6 p:eq(-13)').on('click',function(){
+    window.location.href = "shengwu/rao2019减数分裂.pptx";
+  });
+  $('.item6 p:eq(-12)').on('click',function(){
+    window.location.href = "shengwu/RAO孟德尔的豌豆杂交实验(二).ppt";
+  });
   $('.item6 p:eq(-11)').on('click',function(){
     window.location.href = "shengwu/rao8月26细胞中有机物的合成.pptx";
   });

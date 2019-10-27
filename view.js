@@ -51,6 +51,12 @@ $(function(){
   });
 
 
+  $('.item6 p:eq(-13)').on('click',function(){
+    window.location.href = "sw/rao2019减数分裂";
+  });
+  $('.item6 p:eq(-12)').on('click',function(){
+    window.location.href = "sw/RAO孟德尔的豌豆杂交实验(二)";
+  });
   $('.item6 p:eq(-11)').on('click',function(){
     window.location.href = "sw/rao8月26细胞中有机物的合成";
   });
